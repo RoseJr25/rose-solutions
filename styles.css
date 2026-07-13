@@ -67,11 +67,12 @@ img {
 }
 
 .brand img {
-  height: 62px;
+  height: 64px;
   width: 185px;
-  object-fit: cover;
-  object-position: center 45%;
+  object-fit: contain;
+  object-position: center;
   border-radius: 8px;
+  background: transparent;
 }
 
 .nav-links {
@@ -662,11 +663,12 @@ textarea:focus {
 }
 
 .footer img {
-  width: 150px;
-  height: 55px;
-  object-fit: cover;
-  object-position: center 46%;
+  width: 170px;
+  height: 70px;
+  object-fit: contain;
+  object-position: center;
   border-radius: 7px;
+  background: transparent;
 }
 
 .footer p {
@@ -756,7 +758,8 @@ textarea:focus {
 
   .brand img {
     width: 150px;
-    height: 52px;
+    height: 58px;
+    object-fit: contain;
   }
 
   h1 {
